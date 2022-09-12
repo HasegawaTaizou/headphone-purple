@@ -1,0 +1,17 @@
+.menu {
+    width: 100px;
+    height: 100px;
+     background-color: #000000;
+     color: #ffffff;
+     display: grid;
+     place-items: center;
+     font-size: 2.5rem;
+}
+
+header {
+    grid-area: header;
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    padding-right: 100px;
+}
